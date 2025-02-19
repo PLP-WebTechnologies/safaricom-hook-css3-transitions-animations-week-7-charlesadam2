@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Banner Section with Animation -->
+    <header class="banner">
+        <div class="banner-content">
+            <h1>Welcome to the Interactive Webpage</h1>
+            <p>Experience smooth transitions, cool animations, and dynamic interactivity!</p>
+        </div>
+    </header>
+
+    <!-- Interactive Button to trigger Animation -->
+    <section class="cta-section">
+        <button class="cta-button">Click Me for Animation</button>
+    </section>
+
+    <!-- Modal Section -->
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Awesome Modal</h2>
+            <p>This modal appears and disappears based on user interaction.</p>
+        </div>
+    </div>
+
+    <!-- Cards Section with Hover Transition -->
+    <section class="cards-section">
+        <div class="card">
+            <h3>Card 1</h3>
+            <p>Hover to see the transition effect.</p>
+        </div>
+        <div class="card">
+            <h3>Card 2</h3>
+            <p>Hover to see the transition effect.</p>
+        </div>
+        <div class="card">
+            <h3>Card 3</h3>
+            <p>Hover to see the transition effect.</p>
+        </div>
+    </section>
+
+        <!-- Rectangle Calculation Section -->
+        <section class="calc-section">
+            <h2>Calculate Area of a Rectangle</h2>
+            <form id="calcForm">
+                <label for="length">Length (in cm):</label>
+                <input type="number" id="length" required>
+                
+                <label for="width">Width (in cm):</label>
+                <input type="number" id="width" required>
+                
+                <button type="submit">Calculate Area</button>
+            </form>
+            <p id="areaResult"></p>
+        </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
